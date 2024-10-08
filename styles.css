@@ -1,0 +1,100 @@
+body {
+  background-color: #10113b;
+  font-family: sans-serif;
+  color: white;
+}
+.flex-container {
+  display: flex;
+}
+header h1 {
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+}
+.chart-container {
+  margin-left: 3rem;
+  display: inline-block;
+  width: 60vw;
+  height: 60vh;
+  background-color: #2a2c85;
+  border-radius: 5%;
+}
+
+.graph-display {
+  height: 90%;
+  width: 95%;
+}
+
+.buttons-4 {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  color: white;
+}
+
+.buttons-4 button {
+  height: 2.5rem;
+  width: 5rem;
+  color: white;
+  background-color: black;
+  font-weight: bold;
+  border-radius: 15%;
+  box-shadow: none;
+  border: none;
+}
+
+.buttons-4 button:hover {
+  background-color: rgb(89, 89, 89);
+}
+
+/* aside styling */
+.info {
+  font-size: 1.4rem;
+  display: flex;
+  width: 25vw;
+  height: auto;
+  justify-content: space-around;
+  margin-left: 3rem;
+  margin-bottom: 2rem;
+}
+
+.company-name {
+  font-size: 1.4rem;
+  height: auto;
+  width: 6rem;
+  color: aliceblue;
+  background-color: #171aa6;
+  border: none;
+  border-radius: 4rem;
+}
+.companyName {
+  font-size: 1.4rem;
+  height: auto;
+  width: 6rem;
+  color: aliceblue;
+  border: none;
+}
+
+.company-name:hover {
+  background-color: #010238;
+}
+.description-container {
+  font-size: 1.4rem;
+  display: flex;
+  height: auto;
+  justify-content: space-around;
+  align-items: center;
+}
+.description {
+  margin-left: 4rem;
+  margin-right: 10rem;
+  text-align: justify;
+}
+
+.selected {
+  background-color: #2a2c85;
+}
+
+.graph-display {
+  width: 100%;
+}
